@@ -16,7 +16,7 @@ function App() {
     <>
       <Main />
       <Intro />
-      <Skiils />
+      {/* <Skiils />
       <Activity />
       <Project />
       <DetailProject1 />
@@ -25,7 +25,7 @@ function App() {
       <DetailProject4 />
       <DetailProject5 />
       <DetailProject6 />
-      <DetailProject7 />
+      <DetailProject7 /> */}
     </>
   );
 }

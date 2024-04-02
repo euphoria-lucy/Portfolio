@@ -1,5 +1,37 @@
-@import "../scss/setting/font.scss";
+@import "./setting/font.scss";
 
-div {
+.intro {
   font-family: "SCoreDream";
+  font-weight: 900;
+  font-size: 3.5em;
+  margin-left: 2em;
+}
+
+.left-nav {
+  display: flex;
+  margin-top: 7em;
+  margin-left: 1.875em;
+  p {
+    font-family: "SCoreDream";
+    font-weight: 400;
+    font-size: 2em;
+    margin-left: 3em;
+  }
+}
+
+.img {
+  display: flex;
+  img {
+    margin-left: 12em;
+    margin-right: 5em;
+    border-radius: 20px;
+  }
+  p {
+    font-family: "SCoreDream";
+    font-weight: 500;
+    font-size: 1.5em;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 }
