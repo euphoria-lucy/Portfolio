@@ -1,6 +1,47 @@
 @import "../scss/setting/font.scss";
 
-div {
+.projects-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10em;
+  height: 100vh;
+  // background-color: lavenderblush;
+}
+
+.projects-top,
+.projects-bottom {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 6em;
+}
+
+.project-intro {
+  font-family: "SCoreDream";
+  font-weight: 900;
+  font-size: 3em;
+}
+
+.project-title {
+  font-family: "SCoreDream";
+  font-weight: 800;
+  font-size: 1.7em;
+}
+
+.project-explain {
   font-family: "SCoreDream";
   font-weight: 500;
+  font-size: 1.4em;
+  white-space: normal;
+  word-wrap: break-word;
+  min-height: 4em;
+  width: 210px;
+}
+
+.project-subtitle {
+  font-family: "SCoreDream";
+  font-weight: 400;
+  font-size: 1em;
 }
