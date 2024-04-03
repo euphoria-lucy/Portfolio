@@ -1,5 +1,44 @@
 @import "../scss/setting/font.scss";
 
-div {
+.experience {
   font-family: "SCoreDream";
+  font-weight: 900;
+  font-size: 3em;
+
+  margin-left: 1em;
+  line-height: 2;
+  // background-color: lightblue;
+}
+
+.activity {
+  // background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10em;
+}
+
+.activity-background,
+.certificate-background,
+.award-background {
+  // background-color: lightskyblue;
+  height: 100vh;
+}
+
+.activity-intro,
+.certificate-intro,
+.award-intro {
+  font-family: "SCoreDream";
+  font-weight: 900;
+  font-size: 2.5em;
+}
+
+.activities,
+.certificate,
+.award {
+  font-family: "SCoreDream";
+  font-weight: 500;
+  font-size: 1.7em;
+  line-height: 1.785;
+  // margin-left: 0.6em;
 }
