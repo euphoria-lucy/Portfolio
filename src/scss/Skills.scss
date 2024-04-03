@@ -6,14 +6,16 @@
   justify-content: center;
   align-items: center;
   gap: 10em;
+  height: 100vh;
+  background-color: lightsteelblue;
 }
 
-.language-background,
-.database-background,
-.tool-background {
-  // background-color: lightskyblue;
-  height: 100vh;
-}
+// .language-background,
+// .database-background,
+// .tool-background {
+//   // background-color: lightskyblue;
+//   // height: 100vh;
+// }
 
 .language-intro,
 .database-intro,

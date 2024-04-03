@@ -34,8 +34,10 @@ const Skills = () => {
           <div className="tool">
             <p className="mark">Visual Studio Code</p>
             <p>IntelliJ</p>
-            <p>Bootstrap</p>
+            <p>BootStrap</p>
             <p className="mark">GitHub</p>
+            <p className="mark">Notion</p>
+            <p className="mark">Slack</p>
             <p>Eclipse </p>
             <p>Visual Studio</p>
             <p>Android Studio</p>

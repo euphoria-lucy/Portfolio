@@ -1,28 +1,19 @@
 @import "../scss/setting/font.scss";
 
-.experience {
-  font-family: "SCoreDream";
-  font-weight: 900;
-  font-size: 3em;
-
-  margin-left: 1em;
-  line-height: 2;
-  // background-color: lightblue;
-}
-
 .activity {
-  // background-color: lightblue;
+  background-color: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10em;
+  height: 100vh;
 }
 
 .activity-background,
 .certificate-background,
 .award-background {
   // background-color: lightskyblue;
-  height: 100vh;
+  // height: 100vh;
 }
 
 .activity-intro,

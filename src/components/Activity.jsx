@@ -4,7 +4,6 @@ import "../scss/Activity.scss";
 const Activity = () => {
   return (
     <>
-      <div className="experience">EXPERIENCE</div>
       <div className="activity">
         <div className="activity-background">
           <div className="activity-intro">ACTIVITIES</div>
