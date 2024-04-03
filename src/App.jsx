@@ -16,16 +16,16 @@ function App() {
     <>
       <Main />
       <Intro />
-      {/* <Skiils />
-      <Activity />
-      <Project />
-      <DetailProject1 />
-      <DetailProject2 />
-      <DetailProject3 />
-      <DetailProject4 />
-      <DetailProject5 />
-      <DetailProject6 />
-      <DetailProject7 /> */}
+      <Skiils />
+      {/* <Activity /> */}
+      {/* <Project /> */}
+      {/* <DetailProject1 /> */}
+      {/* <DetailProject2 /> */}
+      {/* <DetailProject3 /> */}
+      {/* <DetailProject4 /> */}
+      {/* <DetailProject5 /> */}
+      {/* <DetailProject6 /> */}
+      {/* <DetailProject7 /> */}
     </>
   );
 }
