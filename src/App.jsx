@@ -3,6 +3,7 @@ import Intro from "../src/components/Intro";
 import Skiils from "../src/components/Skills";
 import Activity from "../src/components/Activity";
 import Project from "../src/components/Project";
+import Footer from "./components/Footer";
 import DetailProject1 from "../src/components/Projects/DetailProject1";
 import DetailProject2 from "../src/components/Projects/DetailProject2";
 import DetailProject3 from "../src/components/Projects/DetailProject3";
@@ -19,6 +20,7 @@ function App() {
       <Skiils />
       <Activity />
       <Project />
+      <Footer />
       {/* <DetailProject1 /> */}
       {/* <DetailProject2 /> */}
       {/* <DetailProject3 /> */}

@@ -1,0 +1,19 @@
+@import "../scss/setting/font.scss";
+
+.footer {
+  position: relative;
+  // background-color: lightgray;
+  height: 10em;
+  display: flex;
+  align-items: end;
+
+  margin-bottom: 3em;
+}
+
+.copyright {
+  font-family: "SCoreDream";
+  font-weight: 500;
+  font-size: 1em;
+  position: absolute;
+  right: 0;
+}
