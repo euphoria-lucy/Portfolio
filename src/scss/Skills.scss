@@ -1,25 +1,26 @@
 @import "../scss/setting/font.scss";
 
 .skill {
-  // background-color: lightblue;
   display: flex;
   justify-content: center;
-  align-items: center;
-  gap: 10em;
+  align-items: baseline;
+  flex-direction: row;
+  gap: 14em;
   height: 100vh;
-  background-color: lightsteelblue;
+  // background-color: lightsteelblue;
 }
 
-// .language-background,
-// .database-background,
-// .tool-background {
-//   // background-color: lightskyblue;
-//   // height: 100vh;
-// }
+.activity-background,
+.database-background,
+.tool-background {
+  min-height: 5em;
+  margin-top: 1.5em;
+}
 
 .language-intro,
 .database-intro,
 .tool-intro {
+  align-items: stretch;
   font-family: "SCoreDream";
   font-weight: 900;
   font-size: 2.5em;
